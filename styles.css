@@ -1,0 +1,29 @@
+body, html{
+  height:100%;
+}
+body{
+  margin: 0px;
+  background-color:#444;
+  font-size: 18px;
+  background-image: url('comp.png') ;
+  background-size: 100% 100%;
+}
+body, a:link, a:visited, a:active{
+  color: lightblue;
+}
+.title, .addDancerButton{
+  padding:5px 12px;
+  float:right;
+}
+.topbar{
+  height:32px;
+  background-color: #555;
+}
+.title{
+  background-color: #777;
+}
+.dancer{
+  position:absolute;
+  height: 100px;
+  width: 100px;
+}
